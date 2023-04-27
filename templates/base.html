@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+		{%block title%}
+    		Home
+		{% endblock %}
+	</title>
+	<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+	<div>
+		<!--Start of header-->
+		{% include 'header.html' %}
+		<!--End of header-->
+		<!--Start of sidebar-->
+		{% include 'sidebar.html' %}
+		<!--End of sidebar-->
+		<!--Start of content-->
+		<section class="text-gray-600 body-font">
+		  <div class="container px-5 py-24 mx-auto">
+		    <div class="flex flex-col text-center w-full mb-20">
+		      <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">THE CONTENTS</h2>
+		      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">OUR TEAM</h1>
+		      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Our team has been together for more than 3 months. We are learning Python development course....</p>
+		    </div>
+		    <div class="flex flex-wrap">
+		      <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+		        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Jandarbek</h2>
+		        <p class="leading-relaxed text-base mb-4"></p>
+		      </div>
+		      <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+		        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Talgat</h2>
+		        <p class="leading-relaxed text-base mb-4"></p>
+		      </div>
+		      <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+		        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Sultan</h2>
+		        <p class="leading-relaxed text-base mb-4"></p>
+		      </div>
+		      <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+		        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Daryabay</h2>
+		        <p class="leading-relaxed text-base mb-4"></p>
+		      </div>
+		      <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+		        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Nurlibek</h2>
+		        <p class="leading-relaxed text-base mb-4"></p>
+		      </div>
+		      <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+		        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Sharofiddin</h2>
+		        <p class="leading-relaxed text-base mb-4"></p>
+		      </div>
+		      <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+		        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Sharyar</h2>
+		        <p class="leading-relaxed text-base mb-4"></p>
+		      </div>
+		      <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+		        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Xudaybergen</h2>
+		        <p class="leading-relaxed text-base mb-4"></p>
+		      </div>
+		      <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+		        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Aziz</h2>
+		        <p class="leading-relaxed text-base mb-4"></p>
+		      </div>
+		      <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+		        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Muhammadyusuf</h2>
+		        <p class="leading-relaxed text-base mb-4"></p>
+		      </div>
+		    </div>
+		  </div>
+		</section>
+		<!--End of content-->
+		<!--Start of footer-->
+		{% include 'footer.html' %}
+		<!--End of footer-->
+	</div>
+</body>
+</html>
